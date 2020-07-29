@@ -63,8 +63,8 @@ a:hover{
 
 .inner-btn button{
   position: absolute;
-  right: 3%;
-  top: 7%;
+  right: 5%;
+  top: 10%;
   background-color: transparent;
   border: none;
   color: var(--fc-secondary);
