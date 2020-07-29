@@ -30,6 +30,11 @@ body{
   
   transition: ease-in 0.5s all;
 }
+
+.navbar-collapse {
+  background-color: var(--fc-secondary);
+}
+
 a{
   color: black;
   text-decoration: none;
