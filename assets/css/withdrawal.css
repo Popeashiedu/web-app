@@ -15,6 +15,7 @@
   --sideBar-active: #362f74;  
   --clr-bg-desktop: #D5F5E2;
   --clr-bg: #ffffff;
+  --clr-hover:  #0052B3;
   --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),  0.125em 0.125em 0.25em rgba(0,0,0,.15);
 
 }
@@ -195,7 +196,7 @@ a:hover{
   transition: ease 0.5s all;
 }
 .inner-btn button:hover{
-  background-color: var(--fc-secondary);
+  background-color: var(--clr-hover);
   color: var(--clr-bg);
   border-radius: 5px;
   
@@ -209,10 +210,8 @@ a:hover{
   border: none;
 }
 #withdraw-now-btn:hover{
-  background-color: var(--clr-bg);
-  color: var(--fc-secondary);
+  background-color: var(--clr-hover);
   box-shadow: var(--bs);
-  border: 1px solid var(--fc-secondary);
 }
 .required{
   font-weight: 600;
