@@ -1,3 +1,8 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="./assets/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/withdrawal.css" />
+</head>
+
 @extends('name')
 
 @section('title', 'Withdrawal' )
