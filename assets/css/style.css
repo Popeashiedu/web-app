@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* div{
+  border: solid 1px blue;
+}
+img{
+  border: solid 1px red;
+} */
+
+
+:root{
+  --ff-primary: 'Source Sans Pro', sans-serif;
+  --fc-secondary:  #362F74;
+  --fc-tertiary: black;
+  --clr-form: #BDBDBD;
+  --clr-bg-desktop: #D5F5E2;
+  --clr-bg: #ffffff;
+  --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),  0.125em 0.125em 0.25em rgba(0,0,0,.15);
+
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  
+  font-family: var(--ff-primary);
+  
+  transition: ease-in 0.5s all;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+a:hover{
+  color: var(--fc-secondary);
+  text-decoration: none;
+}
+
+/* #withdrawal-section{
+  background: var(--clr-bg-desktop);
+  height: 100%;
+} */
+
+#withdrawal-form{
+  background-color: var(--clr-bg);
+}
+
+.withdraw-form-control{
+ border-radius: 0;
+ border: 1px solid var(--clr-form);
+ color: var(--clr-form);
+}
+.withdraw-form-control:focus-within{
+ color: var(--fc-secondary);
+}
+
+.inner-btn{
+  position: relative;
+}
+
+.inner-btn button{
+  position: absolute;
+  right: 3%;
+  top: 7%;
+  background-color: transparent;
+  border: none;
+  color: var(--fc-secondary);
+  padding: 0.2rem 0.5rem;
+  transition: ease 0.5s all;
+}
+.inner-btn button:hover{
+  background-color: var(--fc-secondary);
+  color: var(--clr-bg);
+  border-radius: 5px;
+  
+
+}
+
+#withdraw-now-btn{
+  background-color: var(--fc-secondary);
+  border-radius: 5px;
+  transition: ease 0.5s all;
+}
+#withdraw-now-btn:hover{
+  background-color: var(--clr-bg);
+  color: var(--fc-secondary);
+  box-shadow: var(--bs);
+  border: 1px solid var(--fc-secondary);
+}
+
+.required:before {
+  content:"*";
+  color: red;
+}
+
+.sidebar {
+  background-color: var(--fc-secondary);
+}
+
+.header__link-list-active::after {
+  border-bottom: 4px solid var(--fc-secondary);
+}
