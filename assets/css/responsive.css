@@ -21,7 +21,7 @@
 
 @media all and (min-width:1200px) {
   :root{
-    --fs-label: 20px;
+    --fs-label: 19px;
     --fs-input: 18px;
   
   }

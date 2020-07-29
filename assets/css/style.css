@@ -96,7 +96,9 @@ a:hover{
   box-shadow: var(--bs);
   border: 1px solid var(--fc-secondary);
 }
-
+.required{
+  font-weight: 600;
+}
 .required:before {
   content:"*";
   color: red;
