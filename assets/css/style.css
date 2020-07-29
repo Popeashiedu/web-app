@@ -83,6 +83,7 @@ a:hover{
   background-color: var(--fc-secondary);
   border-radius: 5px;
   transition: ease 0.5s all;
+  border: none;
 }
 #withdraw-now-btn:hover{
   background-color: var(--clr-bg);
