@@ -53,7 +53,9 @@ a:hover{
 .navbar-light .navbar-toggler-icon {
   background-image: url("../images/hamburger\ menu.svg");
 }
-
+.big-nav{
+  background-color: #fff;
+}
 .navbar-light .navbar-toggler {
   border-color: transparent;
 }
@@ -169,6 +171,10 @@ a:hover{
   font-family: inherit;
 }
 
+/* #desktop-search{
+  font-size: 13px;
+} */
+
 .mobile-search__icon {
   position: absolute;
   top: 50%;
@@ -258,6 +264,9 @@ a:hover{
 
 /* MEDIA QUERIES  */
 @media (min-width: 768px) {
+  header{
+    background-color: #fff;
+  }
   
   .sidebar {
     width: 200px;
