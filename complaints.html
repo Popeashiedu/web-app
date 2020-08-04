@@ -10,7 +10,7 @@
   <meta name="description" content="advertising, web app, trending" />
   <meta name="keywords" content="advertising, web app, trending" />
   <!-- Website title-->
-  <title>Withdrawal</title>
+  <title>Complaints</title>
   <link rel="shortcut icon" href="" type="image/x-icon" />
   <link rel="icon" href="">
   <link rel="apple-touch-icon-precomposed" href="" />
@@ -20,7 +20,7 @@
   <!-- CSS links-->
   <link rel="stylesheet" href="./assets/css/bootstrap.css" />
   <link rel="stylesheet" href="./assets/css/inner-nav.css">
-  <link rel="stylesheet" type="text/css" href="./assets/css/withdrawal.css" />
+  <link rel="stylesheet" type="text/css" href="./assets/css/complaints.css" />
   <link rel="stylesheet" href="./assets/css/aos.min.css">
 
 </head>
@@ -155,10 +155,7 @@
       <div class="col-12">
         <div class="my-3 small-inner-nav">
           <ul class="list-unstyled d-flex align-items-center justify-content-center mb-0">
-            <li><a class="header__link mr-3" href="index.html">Wallet</a></li>
-            <li class="header__link mr-3"><a class="header__link" href="plans.html">Plans</a>
-            </li>
-            <li><a class="header__link-list-active header__link-active header_link" href="payment.html">Withdrawal</a>
+            <li><a class="header__link-list-active header__link-active header_link" href="#">Complaints</a>
             </li>
           </ul>
         </div>
@@ -171,7 +168,7 @@
   <main class="main-content">
     <!-- Big screens -->
     <header class="sticky-top">
-      <nav class="position-relative py-md-3">
+      <nav class="position-relative py-md-1">
         <div class="container-fluid container-custom">
           <div class="d-flex justify-content-between align-items-center">
             <!-- Close button -->
@@ -196,19 +193,30 @@
             <!-- BIG SCREEN INNER PAGE NAV STARTS  -->
             <div class="mr-auto ml-5 big-inner-nav">
               <ul class="list-unstyled d-flex align-items-center justify-content-between mb-0">
-                <li><a class="header__link mr-3" href="index.html">Wallet</a></li>
-                <li class="header__link mr-3"><a class="header__link" href="plans.html">Plans</a>
-                </li>
-                <li><a class="header__link-list-active  header__link-active" href="#">Withdrawal</a></li>
+                <li><a class="header__link-list-active  header__link-active" href="#">Complaints</a></li>
               </ul>
             </div>
             <!-- BIG SCREEN INNER PAGE NAV ENDS  -->
-
-
+            <!-- big screens search bar -->
+            <div class="mr-4 mr-lg-5">
+              <form class="d-none d-md-block mobile-search my-2">
+                <input type="text" class="mobile-search__input" placeholder="search">
+                <svg class="dashboard-icon mobile-search__icon" viewBox="0 0 20 20" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M8.80758 0C3.95121 0 0 3.95121 0 8.80758C0 13.6642 3.95121 17.6152 8.80758 17.6152C13.6642 17.6152 17.6152 13.6642 17.6152 8.80758C17.6152 3.95121 13.6642 0 8.80758 0ZM8.80758 15.9892C4.84769 15.9892 1.62602 12.7675 1.62602 8.80762C1.62602 4.84773 4.84769 1.62602 8.80758 1.62602C12.7675 1.62602 15.9891 4.84769 15.9891 8.80758C15.9891 12.7675 12.7675 15.9892 8.80758 15.9892Z"
+                    fill="#B5B5B5" />
+                  <path
+                    d="M19.762 18.6122L15.1007 13.9509C14.7831 13.6333 14.2687 13.6333 13.9511 13.9509C13.6335 14.2683 13.6335 14.7832 13.9511 15.1005L18.6124 19.7618C18.7711 19.9206 18.979 20 19.1872 20C19.395 20 19.6031 19.9206 19.762 19.7618C20.0796 19.4444 20.0796 18.9295 19.762 18.6122Z"
+                    fill="#B5B5B5" />
+                </svg>
+              </form>
+            </div>
+            <!-- big screens search bar -->
             <div class="d-none d-md-block">
               <div class="d-flex justify-content-end align-items-center">
-                <img class="img-fluid profile-picture pr-2" src="./assets/images/profile picture.svg" alt="">
-                <span>Joshua</span>
+                <img class="img-fluid profile-picture pr-2 pt-1" src="./assets/images/profile-pic-nathan.png" alt="">
+                <span>Nathan Cooper</span>
               </div>
             </div>
           </div>
@@ -228,68 +236,54 @@
           <path
             d="M19.762 18.6122L15.1007 13.9509C14.7831 13.6333 14.2687 13.6333 13.9511 13.9509C13.6335 14.2683 13.6335 14.7832 13.9511 15.1005L18.6124 19.7618C18.7711 19.9206 18.979 20 19.1872 20C19.395 20 19.6031 19.9206 19.762 19.7618C20.0796 19.4444 20.0796 18.9295 19.762 18.6122Z"
             fill="#B5B5B5" />
+        </svg>
       </form>
       <!-- Plug your mark up here -->
-      <!-- WITHDRAWAL FORM STARTS -->
+      <section>
+        <div class="container">
+          <div class="row mt-4">
+            <div class="col-12">
+              <h1 class="complaint-header">Complaints Form</h1>
+              <p class="complaint-p">We would love to hear your thoughts, concerns or complaints with anything so we can
+                improve!</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Complaints FORM STARTS -->
       <section class="" id="withdrawal-section">
         <div class="container">
-          <div class="row d-flex justify-content-center my-5">
-            <form class="px-3 py-5 p-md-5" id="withdrawal-form">
-              <div class="form-row">
-                <div class="form-group col-12 pt-3">
-                  <label for="inputName1" class="required">Account Name:</label>
-                  <input type="text" class="form-control withdraw-form-control" id="inputName1"
-                    placeholder="Input Name">
-                </div>
-                <div class="form-group col-md-7 col-12">
-                  <label for="inputBank1" class="required">Bank Name</label>
-                  <select id="inputBank1" class="form-control withdraw-form-control">
-                    <option selected class="">Select Bank</option>
-                    <option>First Bank of Nigeria</option>
-                    <option>Zenith Bank</option>
-                    <option>Access Bank</option>
-                    <option>Standard Chartered Bank</option>
-                    <option>CitiBank</option>
-                    <option>EcoBank PLC</option>
-                    <option>GTBank PLC</option>
-                    <option>Wema Bank</option>
-                    <option>Stanbic IBTC Bank</option>
-                    <option>Skye Bank</option>
-                    <option>Keystone Bank</option>
-                    <option>Union Bank</option>
-                    <option>Sterling Bank</option>
-                    <option>Heritage</option>
-                    <option>Mkudi</option>
-                    <option>First City Monument Bank</option>
-                    <option>United Bank for Africa</option>
-                  </select>
-                </div>
-                <div class="form-group col-md-5 col-12">
-                  <label for="inputState" class="required">Account Type</label>
-                  <select id="inputState" class="form-control withdraw-form-control">
-                    <option selected class="">Select Account Type</option>
-                    <option>Savings</option>
-                    <option>Current</option>
-                  </select>
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="inputAddress" class="required">Amount</label>
-                <div class="inner-btn">
-                  <input type="number" class="form-control withdraw-form-control" id="inputAddress"
-                    placeholder="Enter Amount">
-                  <button class="" type="submit" id="inner-btn-withdraw">Withdraw All</button>
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="inputAddress2" class="required">Account Number:</label>
-                <input type="number" class="form-control withdraw-form-control" id="inputAddress2"
-                  placeholder="Enter Account Number">
-              </div>
-              <div class="form-group text-center mt-5 mb-1">
-                <button type="submit" class="btn btn-primary col-md-8" id="withdraw-now-btn">Withdraw Now</button>
-              </div>
+          <div class="row">
+            <div class="col-12">
+              <p class="bio-span"><span>Name:</span> Nathan Cooper</p>
+              <p class="bio-span"><span>Account Type:</span> Publisher</p>
+            </div>
           </div>
+          <form class="pb-5" id="withdrawal-form">
+            <div class="form-group col-12 col-md-10 px-md-0">
+              <label for="inputEemail1" class="required">Email:</label>
+              <input type="text" class="form-control withdraw-form-control" id="inputEemail1"
+                placeholder="Enter your email here">
+            </div>
+            <div class="form-group col-12 col-md-10 px-md-0">
+              <label for="inputPhone" class="required">Phone Number:</label>
+              <div class="inner-btn">
+                <input type="tel" class="form-control withdraw-form-control" id="inputPhone"
+                  placeholder="Type your phone number">
+              </div>
+            </div>
+            <div class="form-group text-left col-12 col-md-10 px-md-0" id="inputTextAreaDiv">
+              <label for="inputTextArea" class="required">Complaints:</label>
+              <textarea id="inputTextArea" class="form-control withdraw-form-control" name="inputTextArea" rows="10"
+                cols="50" placeholder="Tell us why">Type your complaints
+                  </textarea>
+            </div>
+            <div class="form-group text-center text-md-left mt-5 mb-1">
+              <button type="submit" class="btn btn-primary col-7 col-md-4 col-lg-2" id="withdraw-now-btn">Send
+                complaints</button>
+            </div>
           </form>
         </div>
         </div>
