@@ -10,68 +10,83 @@
   <meta name="description" content="advertising, web app, trending" />
   <meta name="keywords" content="advertising, web app, trending" />
   <!-- Website title-->
-  <title>Withdrawal</title>
+  <title>Dashboard</title>
   <link rel="shortcut icon" href="" type="image/x-icon" />
   <link rel="icon" href="">
   <link rel="apple-touch-icon-precomposed" href="" />
   <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&amp;display=swap"
     rel="stylesheet">
   <!-- CSS links-->
   <link rel="stylesheet" href="./assets/css/bootstrap.css" />
   <link rel="stylesheet" href="./assets/css/inner-nav.css">
-  <link rel="stylesheet" type="text/css" href="./assets/css/withdrawal.css" />
+  <link rel="stylesheet" type="text/css" href="./assets/css/publisher-dashboard.css" />
   <link rel="stylesheet" href="./assets/css/aos.min.css">
 
 </head>
 
-<body class="collapse-sidebar">
+<body class="">
   <aside class="sidebar position-fixed h-100 position-relative d-none d-md-block">
     <a class="navbar-brand" href="#"><img class="img-fluid aside-logo logo mt-xl" src="./assets/images/GetViral.svg"
         alt=""></a>
 
     <ul class="sidebar__lists list-unstyled">
-      <li class="py-2 py-xl-3 my-3 d-flex align-items-center"><span class="sidebar__icon pr-3"><svg
-            class="dashboard-icon" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <li class="py-2 py-xl-3 d-flex align-items-center"><span class="sidebar__icon pr-3"><svg class="dashboard-icon"
+            viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
               d="M8.80758 0C3.95121 0 0 3.95121 0 8.80758C0 13.6642 3.95121 17.6152 8.80758 17.6152C13.6642 17.6152 17.6152 13.6642 17.6152 8.80758C17.6152 3.95121 13.6642 0 8.80758 0ZM8.80758 15.9892C4.84769 15.9892 1.62602 12.7675 1.62602 8.80762C1.62602 4.84773 4.84769 1.62602 8.80758 1.62602C12.7675 1.62602 15.9891 4.84769 15.9891 8.80758C15.9891 12.7675 12.7675 15.9892 8.80758 15.9892Z"
               fill="#B5B5B5" />
             <path
               d="M19.762 18.6122L15.1007 13.9509C14.7831 13.6333 14.2687 13.6333 13.9511 13.9509C13.6335 14.2683 13.6335 14.7832 13.9511 15.1005L18.6124 19.7618C18.7711 19.9206 18.979 20 19.1872 20C19.395 20 19.6031 19.9206 19.762 19.7618C20.0796 19.4444 20.0796 18.9295 19.762 18.6122Z"
               fill="#B5B5B5" />
+          </svg>
         </span><input class="sidebar__input side-bar__name mb-0" placeholder="Search"></li>
-      <li class="my-4 py-2 py-xl-3 my-3 d-flex align-items-center"><span class="sidebar__icon"><svg
-            class="dashboard-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
+      <li class="py-2 py-xl-3 d-flex align-items-center sidebar__icon-active"><span class="sidebar__icon"><svg
+            class="dashboard-icon icon-active" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
             preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
             <path
               d="M4 13h6c.55 0 1-.45 1-1V4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v8c0 .55.45 1 1 1zm0 8h6c.55 0 1-.45 1-1v-4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1zm10 0h6c.55 0 1-.45 1-1v-8c0-.55-.45-1-1-1h-6c-.55 0-1 .45-1 1v8c0 .55.45 1 1 1zM13 4v4c0 .55.45 1 1 1h6c.55 0 1-.45 1-1V4c0-.55-.45-1-1-1h-6c-.55 0-1 .45-1 1z" />
-          </svg></span><a href="#" class="pl-3 side-bar__name sidebar__link mb-0">Dashboard</a></li>
-      <li class="my-4 py-2 py-xl-3 my-3 d-flex align-items-center">
+          </svg></span><a href="#"
+          class="pl-3 side-bar__name sidebar__link mb-0 sidebar__link-active nav-link-active">Dashboard</a></li>
+      <li class="py-2 py-xl-3 d-flex align-items-center">
         <span class="sidebar__icon"><svg xmlns="http://www.w3.org/2000/svg" class="dashboard-icon" aria-hidden="true"
             focusable="false" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
             <path
               d="M10 4h10a1 1 0 0 1 0 2H10a1 1 0 1 1 0-2zm0 7h10a1 1 0 0 1 0 2H10a1 1 0 0 1 0-2zm0 7h10a1 1 0 0 1 0 2H10a1 1 0 0 1 0-2zM5 7a2 2 0 1 1 0-4a2 2 0 0 1 0 4zm0 7a2 2 0 1 1 0-4a2 2 0 0 1 0 4zm0 7a2 2 0 1 1 0-4a2 2 0 0 1 0 4z" />
-          </svg></span><a href="#" class="sidebar__link pl-3 side-bar__name mb-0">Publisher List</a></li>
-      <li class="my-4 py-2 py-xl-3 my-3 d-flex align-items-center"><span class="sidebar__icon sidebar__icon-active"><svg
-            xmlns="http://www.w3.org/2000/svg" class="dashboard-icon icon-active" aria-hidden="true" focusable="false"
-            preserveAspectRatio="xMidYMid meet" viewBox="0 0 512 512">
+          </svg></span><a href="#" class="sidebar__link pl-3 side-bar__name mb-0">Campaigns List</a></li>
+      <li class="py-2 py-xl-3 d-flex align-items-center"><span class="sidebar__icon">
+
+          <svg class="dashboard-icon icon-active" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
-              d="M95.5 104h320a87.73 87.73 0 0 1 11.18.71a66 66 0 0 0-77.51-55.56L86 94.08h-.3a66 66 0 0 0-41.07 26.13A87.57 87.57 0 0 1 95.5 104z" />
+              d="M3.73058 4.06252H16.2306C16.3766 4.06245 16.5225 4.07171 16.6673 4.09025C16.6182 3.74563 16.4998 3.41452 16.3193 3.11689C16.1388 2.81925 15.8999 2.56126 15.6169 2.35846C15.334 2.15565 15.013 2.01225 14.6731 1.93688C14.3333 1.86152 13.9817 1.85575 13.6396 1.91994L3.35948 3.67502H3.34777C2.70248 3.79841 2.12865 4.1635 1.74347 4.69572C2.32378 4.28296 3.01845 4.0616 3.73058 4.06252Z"
+              fill="#B5B5B5" />
             <path
-              d="M415.5 128h-320a64.07 64.07 0 0 0-64 64v192a64.07 64.07 0 0 0 64 64h320a64.07 64.07 0 0 0 64-64V192a64.07 64.07 0 0 0-64-64zM368 320a32 32 0 1 1 32-32a32 32 0 0 1-32 32z" />
+              d="M16.2305 5H3.73047C3.06765 5.00072 2.43219 5.26435 1.9635 5.73303C1.49482 6.20172 1.23119 6.83718 1.23047 7.5V15C1.23119 15.6628 1.49482 16.2983 1.9635 16.767C2.43219 17.2357 3.06765 17.4993 3.73047 17.5H16.2305C16.8933 17.4993 17.5288 17.2357 17.9974 16.767C18.4661 16.2983 18.7297 15.6628 18.7305 15V7.5C18.7297 6.83718 18.4661 6.20172 17.9974 5.73303C17.5288 5.26435 16.8933 5.00072 16.2305 5ZM14.375 12.5C14.1278 12.5 13.8861 12.4267 13.6805 12.2893C13.475 12.152 13.3148 11.9568 13.2201 11.7284C13.1255 11.4999 13.1008 11.2486 13.149 11.0061C13.1972 10.7637 13.3163 10.5409 13.4911 10.3661C13.6659 10.1913 13.8887 10.0722 14.1311 10.024C14.3736 9.97579 14.6249 10.0005 14.8534 10.0952C15.0818 10.1898 15.277 10.35 15.4143 10.5555C15.5517 10.7611 15.625 11.0028 15.625 11.25C15.625 11.5815 15.4933 11.8995 15.2589 12.1339C15.0245 12.3683 14.7065 12.5 14.375 12.5Z"
+              fill="#B5B5B5" />
             <path
-              d="M32 259.5V160c0-21.67 12-58 53.65-65.87C121 87.5 156 87.5 156 87.5s23 16 4 16s-18.5 24.5 0 24.5s0 23.5 0 23.5L85.5 236z" />
-          </svg></span><a href="#"
-          class="sidebar__link pl-3 sidebar__link-active nav-link-active side-bar__name mb-0">Wallet</a></li>
-      <li class="my-4 py-2 py-xl-3 my-3 d-flex align-items-center"><span class="sidebar__icon"><svg
+              d="M1.25 10.1367V6.25C1.25 5.40352 1.71875 3.98437 3.3457 3.67695C4.72656 3.41797 6.09375 3.41797 6.09375 3.41797C6.09375 3.41797 6.99219 4.04297 6.25 4.04297C5.50781 4.04297 5.52734 5 6.25 5C6.97266 5 6.25 5.91797 6.25 5.91797L3.33984 9.21875L1.25 10.1367Z"
+              fill="#B5B5B5" />
+          </svg>
+        </span><a href="#" class="sidebar__link pl-3  side-bar__name mb-0">Wallet</a></li>
+      <li class="py-2 py-xl-3 d-flex align-items-center"><span class="sidebar__icon"><svg
             xmlns="http://www.w3.org/2000/svg" class="dashboard-icon" aria-hidden="true" focusable="false"
             viewBox="0 0 1070 1000">
             <path
               d="M1070 938q0 21-2 63H1q0-10-.5-31T0 938q0-30 1-37q12-49 64-84.5t111.5-53t125.5-47t97-65.5q17-22 17-38q0-22-11-73q-4-21-10.5-36.5t-16-33T363 439q-15-35-33-132q-6-38-6-75q0-105 53.5-168T535 1t157.5 63T746 232q0 31-7 75q-14 89-32 132q-6 14-15.5 31.5t-16 33T665 540q-11 51-11 73q0 18 17 38q31 36 97 65.5t125 47t111 53t64 84.5q2 8 2 37z" />
           </svg></span><a href="#" class="sidebar__link pl-3 side-bar__name mb-0">Account</a></li>
+      <!-- <li class="py-2 py-xl-3 d-flex align-items-center sidebar__icon-active"><span class="sidebar__icon">
+          <svg class="dashboard-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M20 10C20 4.48589 15.5141 0 10 0C4.48589 0 0 4.48589 0 10C0 11.7971 0.478341 13.5468 1.38667 15.0829L0.0367647 19.963L4.91708 18.6133C6.45321 19.5217 8.20293 20 10 20C15.5141 20 20 15.5141 20 10ZM8.46547 7.67263H6.93095C6.93095 5.98026 8.30762 4.60358 10 4.60358C11.6924 4.60358 13.0691 5.98026 13.0691 7.67263C13.0691 8.53161 12.7054 9.35722 12.071 9.93746L10.7673 11.1307V12.3274H9.23274V10.455L11.035 8.80535C11.3571 8.51063 11.5345 8.10842 11.5345 7.67263C11.5345 6.82645 10.8462 6.13811 10 6.13811C9.15381 6.13811 8.46547 6.82645 8.46547 7.67263ZM9.23274 13.8619H10.7673V15.3964H9.23274V13.8619Z"
+              fill="#362F74" />
+          </svg>
+        </span><a href="#"
+          class="sidebar__link sidebar__link-active nav-link-active pl-3 side-bar__name mb-0">Support</a></li> -->
     </ul>
     <li
-      class="sidebar__link--sign-out position-absolute mx-auto py-2 py-xl-3 my-3 d-flex align-items-center sidebar__sign-out">
+      class="sidebar__link--sign-out position-absolute mx-auto py-2 py-xl-3 d-flex align-items-center sidebar__sign-out">
       <span class="sidebar__icon"><svg xmlns="http://www.w3.org/2000/svg" class="dashboard-icon sign-icon"
           aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
           <g fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -98,12 +113,13 @@
               <li class="nav-item py-1 d-flex align-items-center">
                 <!--FIXME: USE 'icon-active' ON SVG ICON TO MAKE IT ACTIVE-->
                 <!--FIXME: USE 'nav-link-active' ON link (a) tag TO MAKE IT ACTIVE-->
-                <svg class="pr-3 dashboard-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
-                  preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                <svg class="pr-3 dashboard-icon icon-active" viewBox="0 0 20 20" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
                   <path
-                    d="M4 13h6c.55 0 1-.45 1-1V4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v8c0 .55.45 1 1 1zm0 8h6c.55 0 1-.45 1-1v-4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1zm10 0h6c.55 0 1-.45 1-1v-8c0-.55-.45-1-1-1h-6c-.55 0-1 .45-1 1v8c0 .55.45 1 1 1zM13 4v4c0 .55.45 1 1 1h6c.55 0 1-.45 1-1V4c0-.55-.45-1-1-1h-6c-.55 0-1 .45-1 1z" />
+                    d="M0 9.1658C0 10.2402 0.870946 11.1111 1.94531 11.1111H6.94358C8.01794 11.1111 8.88889 10.2402 8.88889 9.1658V1.94531C8.88889 0.870946 8.01794 0 6.94358 0H1.94531C0.870947 0 0 0.870946 0 1.94531V9.1658ZM0 18.0547C0 19.1291 0.870946 20 1.94531 20H6.94358C8.01794 20 8.88889 19.1291 8.88889 18.0547V15.2786C8.88889 14.2043 8.01794 13.3333 6.94358 13.3333H1.94531C0.870947 13.3333 0 14.2043 0 15.2786V18.0547ZM11.1111 18.0547C11.1111 19.1291 11.9821 20 13.0564 20H18.0547C19.1291 20 20 19.1291 20 18.0547V10.8342C20 9.75983 19.1291 8.88889 18.0547 8.88889H13.0564C11.9821 8.88889 11.1111 9.75984 11.1111 10.8342V18.0547ZM13.0564 0C11.9821 0 11.1111 0.870946 11.1111 1.94531V4.72136C11.1111 5.79572 11.9821 6.66667 13.0564 6.66667H18.0547C19.1291 6.66667 20 5.79572 20 4.72135V1.94531C20 0.870944 19.1291 0 18.0547 0H13.0564Z"
+                    fill="#362F74" />
                 </svg>
-                <a class="nav-link" href="#">Dashboard</a>
+                <a class="nav-link  nav-link-active" href="#">Dashboard</a>
               </li>
               <li class="nav-item py-1 d-flex align-items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" class="pr-3 dashboard-icon" aria-hidden="true" focusable="false"
@@ -111,11 +127,11 @@
                   <path
                     d="M10 4h10a1 1 0 0 1 0 2H10a1 1 0 1 1 0-2zm0 7h10a1 1 0 0 1 0 2H10a1 1 0 0 1 0-2zm0 7h10a1 1 0 0 1 0 2H10a1 1 0 0 1 0-2zM5 7a2 2 0 1 1 0-4a2 2 0 0 1 0 4zm0 7a2 2 0 1 1 0-4a2 2 0 0 1 0 4zm0 7a2 2 0 1 1 0-4a2 2 0 0 1 0 4z" />
                 </svg>
-                <a class="nav-link" href="#">Publisher list</a>
+                <a class="nav-link" href="#">Campaign list</a>
               </li>
               <li class="nav-item  d-flex align-items-center py-1">
-                <svg xmlns="http://www.w3.org/2000/svg" class="pr-3 dashboard-icon  icon-active" aria-hidden="true"
-                  focusable="false" preserveAspectRatio="xMidYMid meet" viewBox="0 0 512 512">
+                <svg xmlns="http://www.w3.org/2000/svg" class="pr-3 dashboard-icon" aria-hidden="true" focusable="false"
+                  preserveAspectRatio="xMidYMid meet" viewBox="0 0 512 512">
                   <path
                     d="M95.5 104h320a87.73 87.73 0 0 1 11.18.71a66 66 0 0 0-77.51-55.56L86 94.08h-.3a66 66 0 0 0-41.07 26.13A87.57 87.57 0 0 1 95.5 104z" />
                   <path
@@ -123,7 +139,7 @@
                   <path
                     d="M32 259.5V160c0-21.67 12-58 53.65-65.87C121 87.5 156 87.5 156 87.5s23 16 4 16s-18.5 24.5 0 24.5s0 23.5 0 23.5L85.5 236z" />
                 </svg>
-                <a class="nav-link nav-link-active" href="#" role="button">Wallet</a>
+                <a class="nav-link" href="#" role="button">Wallet</a>
 
               </li>
               <li class="nav-item py-1 d-flex align-items-center">
@@ -134,6 +150,14 @@
                 </svg>
                 <a class="nav-link" href="#">Account</a>
               </li>
+              <!-- <li class="py-2 py-xl-3 d-flex align-items-center">
+                <svg class="dashboard-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M20 10C20 4.48589 15.5141 0 10 0C4.48589 0 0 4.48589 0 10C0 11.7971 0.478341 13.5468 1.38667 15.0829L0.0367647 19.963L4.91708 18.6133C6.45321 19.5217 8.20293 20 10 20C15.5141 20 20 15.5141 20 10ZM8.46547 7.67263H6.93095C6.93095 5.98026 8.30762 4.60358 10 4.60358C11.6924 4.60358 13.0691 5.98026 13.0691 7.67263C13.0691 8.53161 12.7054 9.35722 12.071 9.93746L10.7673 11.1307V12.3274H9.23274V10.455L11.035 8.80535C11.3571 8.51063 11.5345 8.10842 11.5345 7.67263C11.5345 6.82645 10.8462 6.13811 10 6.13811C9.15381 6.13811 8.46547 6.82645 8.46547 7.67263ZM9.23274 13.8619H10.7673V15.3964H9.23274V13.8619Z"
+                    fill="#362F74" />
+                </svg>
+                <a href="#" class="sidebar__link nav-link-active pl-3 side-bar__name mb-0">Support</a></li> -->
               <li class="nav-item py-1 d-flex align-items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" class="pr-3 dashboard-icon sign-icon" aria-hidden="true"
                   focusable="false" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
@@ -155,10 +179,11 @@
       <div class="col-12">
         <div class="my-3 small-inner-nav">
           <ul class="list-unstyled d-flex align-items-center justify-content-center mb-0">
-            <li><a class="header__link mr-3" href="index.html">Wallet</a></li>
-            <li class="header__link mr-3"><a class="header__link" href="plans.html">Plans</a>
+            <li><a class="header__link-list-active header__link-active header_link mr-3" href="#">Overview</a>
+            <li class="link-item"><a class="header__link mr-3" href="">Campaigns</a>
             </li>
-            <li><a class="header__link-list-active header__link-active header_link" href="payment.html">Withdrawal</a>
+            </li>
+            <!-- <li><a class="header_link" href="#">Campaigns</a> -->
             </li>
           </ul>
         </div>
@@ -171,7 +196,7 @@
   <main class="main-content">
     <!-- Big screens -->
     <header class="sticky-top">
-      <nav class="position-relative py-md-3">
+      <nav class="position-relative py-md-1 big-nav">
         <div class="container-fluid container-custom">
           <div class="d-flex justify-content-between align-items-center">
             <!-- Close button -->
@@ -195,20 +220,18 @@
 
             <!-- BIG SCREEN INNER PAGE NAV STARTS  -->
             <div class="mr-auto ml-5 big-inner-nav">
-              <ul class="list-unstyled d-flex align-items-center justify-content-between mb-0">
-                <li><a class="header__link mr-3" href="index.html">Wallet</a></li>
-                <li class="header__link mr-3"><a class="header__link" href="plans.html">Plans</a>
+              <ul class="list-unstyled d-flex align-items-center mb-0">
+                <li><a class="header__link-list-active  header__link-active pb-3 mr-3" href="#">Overview</a></li>
+                <li class="link-item"><a class="header__link mr-3" href="">Campaigns</a>
                 </li>
-                <li><a class="header__link-list-active  header__link-active" href="#">Withdrawal</a></li>
+                <!-- <li><a class="header__link-list-active  header__link-active pb-3 pb-4" href="#">Campaigns</a></li> -->
               </ul>
             </div>
             <!-- BIG SCREEN INNER PAGE NAV ENDS  -->
-
-
             <div class="d-none d-md-block">
-              <div class="d-flex justify-content-end align-items-center">
-                <img class="img-fluid profile-picture pr-2" src="./assets/images/profile picture.svg" alt="">
-                <span>Joshua</span>
+              <div class="d-flex justify-content-end align-items-center pr-2">
+                <img class="img-fluid profile-picture pr-2 pt-1" src="./assets/images/profile-pic-nathan.png" alt="">
+                <span>Nathan Cooper</span>
               </div>
             </div>
           </div>
@@ -228,96 +251,241 @@
           <path
             d="M19.762 18.6122L15.1007 13.9509C14.7831 13.6333 14.2687 13.6333 13.9511 13.9509C13.6335 14.2683 13.6335 14.7832 13.9511 15.1005L18.6124 19.7618C18.7711 19.9206 18.979 20 19.1872 20C19.395 20 19.6031 19.9206 19.762 19.7618C20.0796 19.4444 20.0796 18.9295 19.762 18.6122Z"
             fill="#B5B5B5" />
+        </svg>
       </form>
       <!-- Plug your mark up here -->
-      <!-- WITHDRAWAL FORM STARTS -->
-      <section class="" id="withdrawal-section">
+      <section>
         <div class="container">
-          <div class="row d-flex justify-content-center my-5">
-            <form class="px-3 py-5 p-md-5" id="withdrawal-form">
-              <div class="form-row">
-                <div class="form-group col-12 pt-3">
-                  <label for="inputName1" class="required">Account Name:</label>
-                  <input type="text" class="form-control withdraw-form-control" id="inputName1"
-                    placeholder="Input Name">
-                </div>
-                <div class="form-group col-md-7 col-12">
-                  <label for="inputBank1" class="required">Bank Name</label>
-                  <select id="inputBank1" class="form-control withdraw-form-control">
-                    <option selected class="">Select Bank</option>
-                    <option>First Bank of Nigeria</option>
-                    <option>Zenith Bank</option>
-                    <option>Access Bank</option>
-                    <option>Standard Chartered Bank</option>
-                    <option>CitiBank</option>
-                    <option>EcoBank PLC</option>
-                    <option>GTBank PLC</option>
-                    <option>Wema Bank</option>
-                    <option>Stanbic IBTC Bank</option>
-                    <option>Skye Bank</option>
-                    <option>Keystone Bank</option>
-                    <option>Union Bank</option>
-                    <option>Sterling Bank</option>
-                    <option>Heritage</option>
-                    <option>Mkudi</option>
-                    <option>First City Monument Bank</option>
-                    <option>United Bank for Africa</option>
-                  </select>
-                </div>
-                <div class="form-group col-md-5 col-12">
-                  <label for="inputState" class="required">Account Type</label>
-                  <select id="inputState" class="form-control withdraw-form-control">
-                    <option selected class="">Select Account Type</option>
-                    <option>Savings</option>
-                    <option>Current</option>
-                  </select>
-                </div>
+          <div class="row d-md-flex justify-content-between pt-3 pt-md-4">
+            <div class="col-12 col-md-3">
+              <h1 class="balance-amount">$100.00</h1>
+              <div class="d-flex balance">
+                <i class="fas fa-eye mt-1 mr-1 balance-icon-open hide"></i>
+                <i class="fas fa-eye-slash mt-1 mr-1 balance-icon-hide"></i>
+                <p class="balance-hide">Hide balance</p>
+                <p class="hide balance-show">Show balance</p>
               </div>
-              <div class="form-group">
-                <label for="inputAddress" class="required">Amount</label>
-                <div class="inner-btn">
-                  <input type="number" class="form-control withdraw-form-control" id="inputAddress"
-                    placeholder="Enter Amount">
-                  <button class="" type="submit" id="inner-btn-withdraw">Withdraw All</button>
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="inputAddress2" class="required">Account Number:</label>
-                <input type="number" class="form-control withdraw-form-control" id="inputAddress2"
-                  placeholder="Enter Account Number">
-              </div>
-              <div class="form-group text-center mt-5 mb-1">
-                <button type="submit" class="btn btn-primary col-md-8" id="withdraw-now-btn">Withdraw Now</button>
-              </div>
+            </div>
+            <div class="col-12 col-md-3">
+              <button class="fund-btn">Fund Account</button>
+            </div>
           </div>
-          </form>
         </div>
-        </div>
-        <footer class="footer">
-          <nav class="row align-items-center">
-            <div class="col-sm-6">
-              <ul class="list-unstyled d-flex justify-content-center justify-content-md-start">
-                <li class="pr-1"><a class="footer-link" href="#">Privacy Policy</a></li>
-                <li><a class="footer-link" href="#">Terms of Use</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-6">
-              <p class="text-center text-md-right">&copy; Copyright 2020 GetViral All Rights Reserved.</p>
-            </div>
-          </nav>
-        </footer>
       </section>
-      <!-- WITHDRAWAL FORM ENDS  -->
-    </section>
+
+      <section>
+        <div class="container">
+          <div class="row mt-5">
+            <div class="col-12">
+              <form action="" class="d-flex align-items-center">
+                <label for="stats" class="balance mr-3 stats-label">Stats on:</label>
+                <select name="stats" id="stats">
+                  <option value="Today">Today</option>
+                  <option value="Weekly">Weekly</option>
+                  <option value="Monthly">Monthly</option>
+                  <option value="Quarterly">Quarterly</option>
+                </select>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="tasks">
+        <div class="container">
+          <div class="row d-flex justify-content-center my-4">
+            <div class="task-card pl-4 pl-md-3 pl-xl-4 mr-lg-5 mb-3 mr-md-4">
+              <div class="my-3 my-md-2 my-xl-3 my-lg-3">
+                <p class="font-weight-bold">Active tasks</p>
+                <p class="my-4 my-md-2 my-xl-4 font-weight-bold my-lg-3 f-lg-32 my-6">15</p>
+                <p class="my-text-secondary"><span class="target-percent f-purple mr-3 mr-md-2 mr-xl-3">5%</span> of
+                  your weeekly target
+                </p>
+              </div>
+            </div>
+            <div class="task-card pl-4 pl-md-3 pl-xl-4 mr-lg-5 mb-3 mr-md-4">
+              <div class="my-3 my-md-2 my-xl-3 my-lg-3">
+                <p class="font-weight-bold">Completed tasks</p>
+                <p class="my-4 my-md-2 my-xl-4 font-weight-bold my-lg-3 my-6 f-lg-32">10</p>
+                <p class="my-text-secondary"><span class="target-percent f-red mr-3 mr-md-2 mr-lg-0 mr-xl-3"> <i
+                      class="fas fa-arrow-down"></i>
+                    70%</span> of your weeekly target</p>
+              </div>
+            </div>
+            <div class="task-card pl-4 mb-3 pl-md-3 pl-xl-4">
+              <div class="my-3 my-md-2 my-xl-3 my-lg-3">
+                <p class="font-weight-bold">Total available tasks</p>
+                <p class="my-4 my-md-2 my-xl-4 font-weight-bold my-lg-3 my-6 f-lg-32">1000</p>
+                <p class="my-text-secondary"><span class="target-percent f-green mr-3"> <i
+                      class="fas fa-arrow-up"></i>1000%</span> on Ads clicks</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="recent-tasks">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h1 class="f-headers fw-600">Recent tasks</h1>
+            </div>
+          </div>
+          <div class="row d-flex justify-content-center mb-4">
+            <div class="task-card pl-4 pl-md-2 pl-xl-4 mr-lg-5 mb-3 mr-md-4 mr-xl-5">
+              <div class="my-3 my-md-0 mt-md-2 my-xl-3">
+                <div class="d-flex">
+                  <div class="coca-pic"><img src="./assets/images/coke.png" alt="" srcset="" class="img-fit"></div>
+                  <div class="pl-1">
+                    <p class="mb-0">Cocacola Promo <br>Video Post</p>
+                    <p class="mb-0">Earned: <span class="f-green">$300</span></p>
+                  </div>
+                </div>
+                <div>
+                  <p class="mb-0 mt-3 mt-md-1 mt-xl-2"> Start Date: 03 March 2020</p>
+                  <p> End Date<span class="f-red"> : Expired </span></p>
+                </div>
+              </div>
+            </div>
+            <div class="task-card pl-4 pl-md-2 pl-xl-4 mr-lg-5 mb-3 mr-md-4 mr-xl-5">
+              <div class="my-3 my-md-0 mt-md-2 my-xl-3">
+                <div class="d-flex">
+                  <div class="coca-pic"><img src="./assets/images/coke.png" alt="" srcset="" class="img-fit"></div>
+                  <div class="pl-1">
+                    <p class="mb-0">Cocacola Promo <br>Video Post</p>
+                    <p class="mb-0">Earned: <span class="f-green">$300</span></p>
+                  </div>
+                </div>
+                <div>
+                  <p class="mb-0 mt-3 mt-md-1 mt-xl-2"> Start Date: 03 March 2020</p>
+                  <p> End Date<span class="f-red"> : Expired </span></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="task-card pl-4 pl-md-2 pl-xl-4 mb-3">
+              <div class="my-3 my-md-0 mt-md-2 my-xl-3">
+                <div class="d-flex">
+                  <div class="coca-pic"><img src="./assets/images/coke.png" alt="" srcset="" class="img-fit"></div>
+                  <div class="pl-1">
+                    <p class="mb-0">Cocacola Promo <br>Video Post</p>
+                    <p class="mb-0">Earned: <span class="f-green">$300</span></p>
+                  </div>
+                </div>
+                <div>
+                  <p class="mb-0 mt-3 mt-md-1 mt-xl-2"> Start Date: 03 March 2020</p>
+                  <p> End Date<span class="f-red"> : Expired </span></p>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h1 class="f-headers fw-600">New Arrival</h1>
+            </div>
+          </div>
+          <div class="new-arrival-card mb-5 px-3 px-md-4 px-lg-5 py-4 d-sm-flex">
+            <div class="flex-auto card-brand-logo">
+              <!-- <img src="{{asset("/images/coke.svg")}}" alt="" class="img-fit"> -->
+              <img src="./assets/images/coke.png" alt="" srcset="" class="img-fit">
+            </div>
+            <div class="card-content col">
+              <div class="card-heading d-flex mb-3">
+                <h2 class="col p-0 my-text-secondary f-24 f-md-28 f-lg-32">Coca Cola Promo Post</h2>
+                <h2 class="col p-0 text-success text-right f-24 f-md-28 f-lg-32">$300</h2>
+              </div>
+              <div class="card-social-icons f-20 mb-3">
+                <a href="#" class="f-purple mr-2">
+                  <span class="logo">
+                    <span class="iconify" data-icon="ant-design:instagram-filled" data-inline="false"></span>
+                  </span>
+                  @cocacola
+                </a>
+                <a href="#" class="f-purple">
+                  <span class="logo">
+                    <span class="iconify" data-icon="ant-design:twitter-circle-filled" data-inline="false"></span>
+                  </span>
+                  @cocacola
+                </a>
+              </div>
+              <div class="card-tags d-flex flex-wrap mb-3">
+                <span class="card-tag flex-auto mb-2 f-14">
+                  Ecommerce
+                </span>
+                <span class="card-tag flex-auto mb-2 f-14">
+                  Technology
+                </span>
+                <span class="card-tag flex-auto mb-2 f-14">
+                  Health
+                </span>
+              </div>
+              <div class="card-description mb-3">
+                <div class="f-24 mb-3 f-purple">
+                  Description:
+                </div>
+                <div>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt nulla vestibulum eu ultrices leo.
+                  Id
+                  dolor, urna vulputate dictumst pulvinar morbi elementum mattis. Condimentum dolor curabitur pretium
+                  leo
+                  a urna. Pharetra, in convallis erat in nam etiam enim integer sed.
+                </div>
+              </div>
+              <div class="d-flex flex-wrap mb-4">
+                <span class="flex-auto mr-3 mb-2 f-20">
+                  <span class="f-purple">Duration:</span> 1 week
+                </span>
+                <span class="flex-auto mr-3 mb-2 f-20">
+                  <span class="f-purple">Target:</span> 2k likes
+                </span>
+                <span class="flex-auto mr-3 mb-2 f-20">
+                  <span class="f-purple">URL:</span> <a href="#" class="f-purple">twitter.com/cocacola</a>
+                </span>
+              </div>
+              <a href="#" class="btn request-btn f-18 fw-600">Request Campaign</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col d-flex justify-content-end">
+              <button class="fund-btn">See all</button>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <footer class="footer mt-5 mb-1 container">
+        <nav class="row align-items-center">
+          <div class="col-sm-6">
+            <ul class="list-unstyled d-flex justify-content-center justify-content-md-start">
+              <li class="pr-1"><a class="footer-link" href="#">Privacy Policy</a></li>
+              <li><a class="footer-link" href="#">Terms of Use</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-6">
+            <p class="text-center text-md-right">&copy; Copyright 2020 GetViral All Rights Reserved.</p>
+          </div>
+        </nav>
+      </footer>
+
   </main>
 
   <!-- javascript at the bottom of the page for fast page load -->
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
   <script src="./assets/js/jquery-3.5.1.min.js"></script>
   <script src="./assets/js/popper.js"></script>
   <script src="./assets/js/bootstrap.js"></script>
   <script src="https://kit.fontawesome.com/d485ce5e89.js" crossorigin="anonymous"></script>
   <!-- Custom JS -->
-  <script src="./assets/js/publisher-withdrawal.js"></script>
+  <script src="./assets/js/publisher-dash.js"></script>
 
 </body>
 
